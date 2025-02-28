@@ -1,0 +1,85 @@
+*{
+margin: 0;
+padding: 5px;
+box-sizing: border-box;
+font-family: Arial;
+}
+body {
+    background-color:#797893
+}
+.Card-Design {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+margin-top:  100px;
+align-items: center;
+padding: 10px;
+}
+.card-one{
+
+    display: grid;
+    margin: 20px;
+    
+    width: 22%;
+    height: 440px;
+ box-shadow: #131212;
+ background-color:white;
+ color: rgb(73, 68, 68);
+ border-radius: 20px;
+ padding-left: 20px;
+ justify-content: center;
+}
+.part2{
+
+    
+    align-items: center;
+}
+.card-two {
+    display: grid;
+    margin: 20px ;
+
+    width: 22%;                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
+    height: 440px;
+    background: rgb(1, 1, 23);
+    color: #fff;
+    box-shadow: #131212;
+    border-radius: 20px;
+    padding-left: 20px;
+    justify-content: center;
+}
+.part3{
+    list-style-type: circle;
+    align-items: center;
+
+}
+.part4{
+
+    list-style-type: disc;
+    align-items: center;
+}
+
+h4{
+font-size: 2rem;
+
+}
+button{
+ padding: 20px ; 
+ border-radius: 20px;
+ margin-top: 10px;
+ height: 30px;
+ width: 100%;
+ justify-content: center;
+ text-align: center;
+  
+}
+.btn1{
+    background-color:rgb(1, 1, 23);
+
+    color: aliceblue;
+    justify-content: center;
+    margin-top: 70px;
+    padding-bottom:10px ;
+    text-align: center;
+    
+    
+}
